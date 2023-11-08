@@ -32,7 +32,7 @@
                             href="{% url 'index' %}">Home</a></li>
                 </ul>
                 <form class="d-flex" role="search" action="{% url 'index' %}" method="get">
-                    <input class="form-control me-2" type="search" placeholder="Amigos ..." aria-label="Search"
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"
                         name="q">
                     <button class="btn btn-outline-success" type="submit">Pesquisa</button>
                 </form>
@@ -46,6 +46,7 @@
                 <img src="{% static 'img/heli.png' %}" alt="" width="100">
                 <h1 class="display-4 fw-bolder">𝗡𝗛𝗜𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗲𝘀</h1>
                 <p class="lead fw-normal text-white-50 mb-0">𝑭𝒍𝒚𝒊𝒏𝒈 𝒊𝒔 𝒎𝒖𝒄𝒉 𝒎𝒐𝒓𝒆 𝒕𝒉𝒂𝒏 𝒋𝒖𝒔𝒕 𝒇𝒍𝒐𝒂𝒕𝒊𝒏𝒈 𝒊𝒏 𝒕𝒉𝒆 𝒔𝒌𝒚!</p>
+                <a class="btn btn-primary" href='{% static "app-release.apk" %} 'role="button">Baixe aqui</a>
             </div>
         </div>
     </header>
